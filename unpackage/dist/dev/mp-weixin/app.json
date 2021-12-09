@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/meeting_list/meeting_list",
+    "pages/document/document",
+    "pages/contacts/contacts",
+    "pages/mine/mine",
+    "pages/checkin/checkin",
+    "pages/checkin_result/checkin_result"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#0052FF",
+    "backgroundColor": "#0052FF"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3474FF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bar-1.png",
+        "selectedIconPath": "static/bar-1-active.png"
+      },
+      {
+        "text": "会议",
+        "pagePath": "pages/meeting_list/meeting_list",
+        "iconPath": "static/bar-2.png",
+        "selectedIconPath": "static/bar-2-active.png"
+      },
+      {
+        "text": "文档",
+        "pagePath": "pages/document/document",
+        "iconPath": "static/bar-3.png",
+        "selectedIconPath": "static/bar-3-active.png"
+      },
+      {
+        "text": "联系人",
+        "pagePath": "pages/contacts/contacts",
+        "iconPath": "static/bar-4.png",
+        "selectedIconPath": "static/bar-4-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/bar-5.png",
+        "selectedIconPath": "static/bar-5-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口展示效果"
+    }
+  },
+  "usingComponents": {}
+}

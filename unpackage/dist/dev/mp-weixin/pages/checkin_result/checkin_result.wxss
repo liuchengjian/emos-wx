@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-3dc854e6 {
+  background-color: #eeeef4;
+}
+.page .summary-container.data-v-3dc854e6 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 35rpx;
+  margin-bottom: 20rpx;
+}
+.page .summary-container .user-info.data-v-3dc854e6 {
+  display: flex;
+}
+.page .summary-container .user-info .photo.data-v-3dc854e6 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.page .summary-container .user-info .info.data-v-3dc854e6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 25rpx;
+}
+.page .summary-container .user-info .info .username.data-v-3dc854e6 {
+  display: block;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+}
+.page .summary-container .user-info .info .dept.data-v-3dc854e6 {
+  display: block;
+  font-size: 28rpx;
+  color: #999;
+}
+.page .summary-container .date.data-v-3dc854e6 {
+  font-size: 38rpx;
+  color: #ffffff;
+}
+.page .result-container.data-v-3dc854e6 {
+  display: flex;
+  background-color: #fff;
+  padding: 35rpx;
+  margin-bottom: 20rpx;
+}
+.page .result-container .left.data-v-3dc854e6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 330rpx;
+  margin-right: 30rpx;
+}
+.page .result-container .left .icon-timer.data-v-3dc854e6 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.page .result-container .left .icon-timer.data-v-3dc854e6:first-child {
+  margin-top: 5rpx;
+}
+.page .result-container .left .line.data-v-3dc854e6 {
+  position: absolute;
+  height: 225rpx;
+  width: 0;
+  border-left: solid #e5e5e5 2rpx;
+  left: 20rpx;
+  top: 55rpx;
+}
+.page .result-container .right .row.data-v-3dc854e6 {
+  display: flex;
+  margin-bottom: 25rpx;
+}
+.page .result-container .right .row .start.data-v-3dc854e6 {
+  font-style: 32rpx;
+  color: #007AFF;
+}
+.page .result-container .right .row .end.data-v-3dc854e6 {
+  font-style: 32rpx;
+  color: #007AFF;
+}
+.page .result-container .right .row .checkin-time.data-v-3dc854e6 {
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+.page .result-container .right .row .checkin-result.data-v-3dc854e6 {
+  display: block;
+  background-color: #fff;
+  font-size: 26rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 10rpx;
+  border-radius: 8rpx;
+  margin-left: 20rpx;
+  color: #fff;
+}
+.page .result-container .right .row .other.data-v-3dc854e6 {
+  margin-top: 7rpx;
+  margin-left: 10rpx;
+}
+.page .result-container .right .row .icon-small.data-v-3dc854e6 {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 10rpx;
+  margin-top: 7rpx;
+}
+.page .result-container .right .row .desc.data-v-3dc854e6 {
+  color: #999;
+  font-size: 12px;
+}
+.page .yellow.data-v-3dc854e6 {
+  background-color: #f0b52f !important;
+}
+.page .red.data-v-3dc854e6 {
+  background-color: #f0532f !important;
+}
+.page .green.data-v-3dc854e6 {
+  background-color: #52a929 !important;
+}
+.page .checkin-report.data-v-3dc854e6 {
+  background-color: #fff;
+  padding: 35rpx;
+}
+.page .checkin-report .big-icon.data-v-3dc854e6 {
+  width: 250rpx;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rpx;
+}
+.page .checkin-report .report-title.data-v-3dc854e6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.page .checkin-report .report-title .days.data-v-3dc854e6 {
+  font-size: 60rpx;
+  color: #333;
+}
+.page .checkin-report .report-title .unit.data-v-3dc854e6 {
+  margin-left: 10rpx;
+  margin-top: 33rpx;
+}
+.page .checkin-report .sub-title.data-v-3dc854e6 {
+  font-size: 34rpx;
+  color: #333;
+  text-align: center;
+  margin-top: 10rpx;
+  position: relative;
+}
+.page .checkin-report .sub-title text.data-v-3dc854e6 {
+  background-color: #fff;
+  z-index: 9999;
+  position: relative;
+  padding: 0 30rpx;
+}
+.page .checkin-report .sub-title .line.data-v-3dc854e6 {
+  height: 0;
+  width: 100%;
+  border-bottom: solid #e5e5e5 2rpx;
+  position: absolute;
+  top: 25rpx;
+}
+.page .checkin-report .calendar-container.data-v-3dc854e6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.page .checkin-report .calendar-container .calendar.data-v-3dc854e6 {
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.page .checkin-report .calendar-container .calendar .calendar-icon.data-v-3dc854e6 {
+  width: 70rpx;
+  display: block;
+  margin-bottom: 5rpx;
+}
+.page .checkin-report .calendar-container .calendar .day.data-v-3dc854e6 {
+  font-size: 32rpx;
+  color: #333;
+  display: block;
+}
+.page .checkin-report .calendar-container .calendar .result.data-v-3dc854e6 {
+  display: block;
+  font-size: 26rpx;
+  background-color: #555;
+  color: #fff;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 5rpx;
+  border-radius: 8rpx;
+  margin-top: 10rpx;
+}
+
